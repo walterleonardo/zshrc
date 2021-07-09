@@ -1,5 +1,7 @@
-# zshrc
-export PATH="$HOME/.bin:$PATH"
+
+<code>
+	
+	export PATH="$HOME/.bin:$PATH"
 export PATH="$HOME/Library/Python/3.8/bin:$PATH"
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
@@ -40,3 +42,4 @@ alias squash='git rebase -i HEAD~2'
 alias tortuga='sshfs -o no_readahead,noappledouble,nolocalcaches walter@tortuga:/home/walter ~/dev/mabrian/tortuga -o volname=TORTUGA'
 alias pelican='sshfs -o no_readahead,noappledouble,nolocalcaches walter@pelican:/home/walter ~/dev/mabrian/pelican -o volname=PELICAN'
 alias tunnel_hotels='open http://localhost:5641 && ssh hotels -L 5641:localhost:5601'
+	</code>
